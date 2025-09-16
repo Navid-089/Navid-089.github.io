@@ -63,7 +63,7 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: #24f0df;
+  --orange-yellow-crayola: #24d1c2;
   --vegas-gold: hsl(175, 76%, 49%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -2014,5 +2014,76 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: var(--fs-5); /* slightly bigger for readability */
   line-height: 1.7;
   color: var(--white-2); /* brighter than light-gray */
+}
+
+.skills-section {
+  margin: 40px 0;
+}
+
+.skills-category {
+  margin-bottom: 25px;
+}
+
+.skills-category h3 {
+  color: var(--orange-yellow-crayola);
+  margin-bottom: 10px;
+  font-size: var(--fs-4);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skill-card {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  border-radius: 12px;
+  padding: 16px 12px;
+  text-align: center;
+  box-shadow: var(--shadow-2);
+  overflow: hidden; /* keep SVG inside */
+}
+
+.skill-card .skill-icon {
+  position: absolute;
+  bottom: -10px;    /* sit near the bottom */
+  right: -20px;     /* sit near the right */
+  width: 60%;       /* smaller, only in bottom-right */
+  height: 50px;
+  opacity: 0.2;     /* softer watermark */
+  pointer-events: none;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+}
+
+.skill-card img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 8px;
+}
+
+.skill-card span {
+  position: relative;
+  display: block;
+  color: var(--white-2);
+  font-size: 14px;
+  font-weight: var(--fw-400);
+  z-index: 1;
+  text-align: left;
+  margin-left: 15px;
+
+}
+
+
+/* General alignment for section headings with icon + text */
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icon and text */
+  margin-bottom: 20px;
 }
 }
