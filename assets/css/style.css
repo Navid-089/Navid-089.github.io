@@ -3,9 +3,7 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
+
 
 
 
@@ -2025,26 +2023,32 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .skills-category h3 {
-  color: var(--orange-yellow-crayola);
+  color: var(--white-2);
   margin-bottom: 10px;
-  font-size: var(--fs-4);
+  font-size: var(--fs-5);
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* always 4 per row */
   gap: 15px;
 }
 
 .skill-card {
+  min-width: 120px;   /* keep fixed sizing */
+  max-width: 180px;   /* you can tweak this */
+  height: 50px;       /* equal height cards */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   position: relative;
   background: var(--border-gradient-onyx);
   border-radius: 12px;
   padding: 16px 12px;
-  text-align: center;
   box-shadow: var(--shadow-2);
-  overflow: hidden; /* keep SVG inside */
+  overflow: hidden;
 }
+
 
 .skill-card .skill-icon {
   position: absolute;
@@ -2066,6 +2070,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   pointer-events: none;
 }
 
+.skill-card .skill-icon-glow-bs4 {
+  position: absolute;
+  bottom: -10px;    /* sit near the bottom */
+  right: -30px;     /* sit near the right */
+  width: 50%;       /* smaller, only in bottom-right */
+  height: 50px;
+  opacity: 0.1;     /* softer watermark */
+  pointer-events: none;
+}
+
 .skill-card:hover {
   transform: translateY(-4px);
 }
@@ -2080,7 +2094,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   position: relative;
   display: block;
   color: var(--white-2);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: var(--fw-400);
   z-index: 1;
   text-align: left;
