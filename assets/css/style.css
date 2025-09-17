@@ -1995,17 +1995,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-top: 45px;
   }
 
-  .inline-link {
-  display: inline; /* ensures links don’t break into a new line */
-  color: #27b6aa;  /* your theme’s highlight color */
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
 
-.inline-link:hover {
-  color: #2d8b83; /* subtle hover color */
-  text-decoration: underline;
-}
 
 .about-text p {
   margin-bottom: 10px; /* tighten spacing */
@@ -2110,4 +2100,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   gap: 10px; /* space between icon and text */
   margin-bottom: 20px;
 }
+}
+
+.inline-link {
+  display: inline; /* ensures links don’t break into a new line */
+  color: #27b6aa;  /* your theme’s highlight color */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.inline-link:hover {
+  color: #2d8b83; /* subtle hover color */
+  text-decoration: underline;
 }
