@@ -2032,7 +2032,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
 }
 
@@ -2052,7 +2052,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   right: -20px;     /* sit near the right */
   width: 60%;       /* smaller, only in bottom-right */
   height: 50px;
-  opacity: 0.2;     /* softer watermark */
+  opacity: 0.35;     /* softer watermark */
+  pointer-events: none;
+}
+
+.skill-card .skill-icon-glow {
+  position: absolute;
+  bottom: -10px;    /* sit near the bottom */
+  right: -20px;     /* sit near the right */
+  width: 60%;       /* smaller, only in bottom-right */
+  height: 50px;
+  opacity: 0.5;     /* softer watermark */
   pointer-events: none;
 }
 
