@@ -240,7 +240,7 @@ article.active {
 .article-title {
   position: relative;
   padding-bottom: 7px;
-  
+  margin-top: 20px;
 }
 
 
@@ -1519,7 +1519,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { 
+    width: 100px;
+    border-radius: 20px;
+  }
 
   .info-content .name {
      font-size: 24px;
@@ -2038,6 +2041,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { 
     width: 150px;
+    border-radius: 15px;
     
  }
 
