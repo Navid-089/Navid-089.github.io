@@ -2210,3 +2210,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: #2d8b83; /* subtle hover color */
   text-decoration: underline;
 }
+/* Preserves exact casing for publication titles, acronyms and tool names
+   (kRISP-meR, DocTalkBN, arXiv) against the global .h4 capitalize rule. */
+.exact-case { text-transform: none; }
