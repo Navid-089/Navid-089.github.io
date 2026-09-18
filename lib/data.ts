@@ -358,7 +358,7 @@ export const MY_EXPERIENCE = [
         title: 'Logistics Director',
         company:
             '[BUET Cyber Security Club](https://www.linkedin.com/company/buetsec)',
-        duration: '2023 - Present',
+        duration: 'May 2025 - May 2026',
         description:
             'Organised club events and competed in capture-the-flag competitions.',
     },
