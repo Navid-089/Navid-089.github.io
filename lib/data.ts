@@ -436,7 +436,7 @@ export const HONORS = [
         year: '2024',
     },
     {
-        title: 'Government General Scholarship',
+        title: 'Government Scholarships',
         detail: 'HSC, SSC, and JSC',
         year: '2021, 2018, 2016',
     },
