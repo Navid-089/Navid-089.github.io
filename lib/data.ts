@@ -336,14 +336,14 @@ export const PROJECTS: IProject[] = [
 export const MY_EXPERIENCE = [
     {
         title: 'Lecturer',
-        company: 'Presidency University',
+        company: '[Presidency University](https://pu.edu.bd/)',
         duration: 'June 2026 - Present',
         description:
             'Teach undergraduate computer science courses and supervise undergraduate thesis projects in machine learning and bioinformatics.',
     },
     {
         title: 'Full Stack Developer (part-time)',
-        company: 'LimbicsAI',
+        company: '[LimbicsAI](https://limbics.ai/)',
         duration: 'May 2025 - June 2026',
         description:
             'Applied machine learning and sensing for infrastructure monitoring. Co-developed a multimodal pavement assessment model (paper under review) and built its automated AWS data pipeline, modelled InSAR ground-deformation data, and implemented PSI/PCI pavement scoring. Set up the LoRaWAN sensor pipeline (ChirpStack, EMQX, InfluxDB) and a bridge scour monitoring test system, and rebuilt the company web front end.',
@@ -357,7 +357,8 @@ export const MY_EXPERIENCE = [
     },
     {
         title: 'Logistics Director',
-        company: 'BUET Cyber Security Club',
+        company:
+            '[BUET Cyber Security Club](https://www.linkedin.com/company/buetsec)',
         duration: '2023 - Present',
         description:
             'Organised club events and competed in capture-the-flag competitions.',
@@ -365,7 +366,7 @@ export const MY_EXPERIENCE = [
 ];
 
 export const TEACHING = {
-    institution: 'Presidency University',
+    institution: '[Presidency University](https://pu.edu.bd/)',
     terms: [
         {
             term: 'Fall 2026',
@@ -399,14 +400,14 @@ export const MY_EDUCATION = [
     {
         degree: 'B.Sc. in Computer Science and Engineering',
         institution:
-            'Bangladesh University of Engineering and Technology (BUET)',
+            '[Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/web/)',
         duration: '2022 - 2026',
         result: 'CGPA 3.96 / 4.00',
         note: "Thesis: kRISP-meR, a reference-free guide-RNA design tool for CRISPR/Cas9. Dean's List in all years.",
     },
     {
         degree: 'Higher Secondary Certificate',
-        institution: 'Notre Dame College, Dhaka',
+        institution: '[Notre Dame College](https://ndc.edu.bd/), Dhaka',
         duration: '2018 - 2021',
         result: 'GPA 5.00 / 5.00',
         note: '',

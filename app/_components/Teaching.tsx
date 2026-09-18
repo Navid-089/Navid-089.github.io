@@ -1,3 +1,4 @@
+import RichText from '@/components/RichText';
 import SectionTitle from '@/components/SectionTitle';
 import { TEACHING } from '@/lib/data';
 
@@ -8,7 +9,8 @@ const Teaching = () => {
                 <SectionTitle title="Teaching" />
 
                 <p className="mb-6 text-muted-foreground">
-                    Course instructor at {TEACHING.institution}.
+                    Course instructor at{' '}
+                    <RichText text={TEACHING.institution} />.
                 </p>
 
                 <div className="space-y-6">

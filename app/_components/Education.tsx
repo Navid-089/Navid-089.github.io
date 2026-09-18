@@ -1,3 +1,4 @@
+import RichText from '@/components/RichText';
 import SectionTitle from '@/components/SectionTitle';
 import { HONORS, MY_EDUCATION } from '@/lib/data';
 
@@ -12,7 +13,7 @@ const Education = () => {
                         <div key={item.degree}>
                             <div className="flex flex-wrap items-baseline justify-between gap-x-6">
                                 <h3 className="font-semibold">
-                                    {item.institution}
+                                    <RichText text={item.institution} />
                                 </h3>
                                 <p className="text-[15px] text-muted-foreground">
                                     {item.duration}
