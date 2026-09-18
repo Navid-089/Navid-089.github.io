@@ -349,6 +349,13 @@ export const MY_EXPERIENCE = [
             'Applied machine learning and sensing for infrastructure monitoring. Co-developed a multimodal pavement assessment model (paper under review) and built its automated AWS data pipeline, modelled InSAR ground-deformation data, and implemented PSI/PCI pavement scoring. Set up the LoRaWAN sensor pipeline (ChirpStack, EMQX, InfluxDB) and a bridge scour monitoring test system, and rebuilt the company web front end.',
     },
     {
+        title: 'Lead Organiser',
+        company: '[BUET CSE Fest 2026](https://www.buetcsefest2026.com/)',
+        duration: '2026',
+        description:
+            "Led the organising team of BUET CSE Fest 2026, the department's technology festival.",
+    },
+    {
         title: 'Logistics Director',
         company: 'BUET Cyber Security Club',
         duration: '2023 - Present',

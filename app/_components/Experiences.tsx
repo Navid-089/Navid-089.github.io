@@ -1,3 +1,4 @@
+import RichText from '@/components/RichText';
 import SectionTitle from '@/components/SectionTitle';
 import { MY_EXPERIENCE } from '@/lib/data';
 
@@ -14,7 +15,7 @@ const Experiences = () => {
                                 <h3 className="font-semibold">
                                     {item.title},{' '}
                                     <span className="font-normal">
-                                        {item.company}
+                                        <RichText text={item.company} />
                                     </span>
                                 </h3>
                                 <p className="text-[15px] text-muted-foreground">
