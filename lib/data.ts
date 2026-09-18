@@ -95,7 +95,7 @@ export const PUBLICATIONS: IPublication[] = [
     {
         title: 'Bengali-Loop: Community Benchmarks for Long-Form Bangla ASR and Speaker Diarization',
         authors:
-            'H. M. Shadman Tabib, Istiak Ahmmed Rifti, …, Wahid Al Azad Navid, … (27 authors)',
+            'H. M. Shadman Tabib, Istiak Ahmmed Rifti, …, Wahid Al Azad Navid, et al.',
         status: 'Preprint',
         venue: 'arXiv:2602.14291',
         year: '2026',
