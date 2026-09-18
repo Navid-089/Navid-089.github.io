@@ -161,7 +161,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/gradpilot.png',
         longThumbnail: '/projects/long/gradpilot.png',
         images: ['/projects/images/gradpilot-1.png'],
-        sourceCode: 'https://github.com/Navid-089',
+        sourceCode: 'https://github.com/Navid-089/GradPilot',
         year: 2025,
         description: `An ML/AI-powered platform that guides students through the graduate application process, from shortlisting universities to polishing their statement of purpose.<br/><br/>
 
@@ -189,7 +189,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/dhcp-attack.png',
         longThumbnail: '/projects/long/dhcp-attack.png',
         images: ['/projects/images/dhcp-attack-1.png'],
-        sourceCode: 'https://github.com/Navid-089',
+        sourceCode: 'https://github.com/Navid-089/DHCP-Starvation-and-Spoofing',
         year: 2025,
         description: `A networks course project simulating DHCP starvation and spoofing attacks inside an isolated virtual lab, then measuring their impact and evaluating defences.<br/><br/>
 
@@ -214,7 +214,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/cashlesscrave-cafe.jpg',
         longThumbnail: '/projects/long/cashlesscrave-cafe.jpg',
         images: ['/projects/images/cashlesscrave-cafe-1.jpg'],
-        sourceCode: 'https://github.com/Navid-089',
+        sourceCode: 'https://github.com/Navid-089/CashlessCrave-Cafe',
         year: 2024,
         description: `An automated vending machine built from scratch, supporting both mobile banking and RFID card payments — a cashless campus cafe in a box.<br/><br/>
 
@@ -240,7 +240,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/c-compiler.png',
         longThumbnail: '/projects/long/c-compiler.png',
         images: ['/projects/images/c-compiler-1.png'],
-        sourceCode: 'https://github.com/Navid-089',
+        sourceCode: 'https://github.com/Navid-089/CSE-310-Compiler-Sessional',
         year: 2023,
         description: `A working compiler for a substantial subset of the C language, built end to end across the full compilation pipeline.<br/><br/>
 
@@ -266,7 +266,6 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/mips-4bit.png',
         longThumbnail: '/projects/long/mips-4bit.png',
         images: ['/projects/images/mips-4bit-1.png'],
-        sourceCode: 'https://github.com/Navid-089',
         year: 2024,
         description: `A 4-bit MIPS processor designed and physically built using an ATmega32A microcontroller alongside discrete logic gates.<br/><br/>
 
@@ -291,7 +290,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/learnly.png',
         longThumbnail: '/projects/long/learnly.png',
         images: ['/projects/images/learnly-1.png'],
-        sourceCode: 'https://github.com/Navid-089',
+        sourceCode: 'https://github.com/Navid-089/Learnly',
         year: 2023,
         description: `A tuition platform that connects tutors with students, handling discovery, scheduling, and batch management in one place.<br/><br/>
 
@@ -315,7 +314,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/moviepedia.png',
         longThumbnail: '/projects/long/moviepedia.png',
         images: ['/projects/images/moviepedia-1.png'],
-        sourceCode: 'https://github.com/Navid-089',
+        sourceCode: 'https://github.com/Navid-089/Moviepedia',
         year: 2022,
         description: `A multi-threaded movie database manager with a desktop interface and real-time trading features between connected clients.<br/><br/>
 
