@@ -342,9 +342,9 @@ export const MY_EXPERIENCE = [
             'Teach undergraduate computer science courses and supervise undergraduate thesis projects in machine learning and bioinformatics.',
     },
     {
-        title: 'Full Stack Developer (part-time)',
+        title: 'Software and ML Engineer (part-time)',
         company: '[LimbicsAI](https://limbics.ai/)',
-        duration: 'May 2025 - June 2026',
+        duration: 'May 2025 - Present',
         description:
             'Applied machine learning and sensing for infrastructure monitoring. Co-developed a multimodal pavement assessment model (paper under review) and built its automated AWS data pipeline, modelled InSAR ground-deformation data, and implemented PSI/PCI pavement scoring. Set up the LoRaWAN sensor pipeline (ChirpStack, EMQX, InfluxDB) and a bridge scour monitoring test system, and rebuilt the company web front end.',
     },
