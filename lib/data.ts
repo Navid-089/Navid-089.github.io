@@ -94,15 +94,13 @@ export const PUBLICATIONS: IPublication[] = [
     },
     {
         title: 'Bengali-Loop: Community Benchmarks for Long-Form Bangla ASR and Speaker Diarization',
-        // TODO(Navid): replace "et al." with the full author list from arXiv.
         authors:
-            'H. M. Shadman Tabib, Istiak Ahmed Rifti, et al., Wahid Al Azad Navid',
+            'H. M. Shadman Tabib, Istiak Ahmmed Rifti, …, Wahid Al Azad Navid, … (27 authors)',
         status: 'Preprint',
-        venue: 'arXiv',
+        venue: 'arXiv:2602.14291',
         year: '2026',
         contribution: '',
-        // TODO(Navid): add { label: 'arXiv', url: 'https://arxiv.org/abs/...' }
-        links: [],
+        links: [{ label: 'arXiv', url: 'https://arxiv.org/abs/2602.14291' }],
     },
 ];
 
