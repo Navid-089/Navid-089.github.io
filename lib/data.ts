@@ -353,7 +353,7 @@ export const MY_EXPERIENCE = [
         company: '[BUET CSE Fest 2026](https://www.buetcsefest2026.com/)',
         duration: '2026',
         description:
-            "Led the organising team of BUET CSE Fest 2026, the department's technology festival.",
+            'Led the organising team of BUET CSE Fest 2026, a national technology festival that drew participants from more than 100 universities across Bangladesh. The fest ran seven major events: a hackathon, a capture-the-flag contest, an inter-university programming contest (IUPC), the DL Sprint deep learning competition, a game jam, a treasure hunt, and a cultural night. Secured the title sponsor and the supporting sponsors.',
     },
     {
         title: 'Logistics Director',
