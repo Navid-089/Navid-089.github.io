@@ -407,7 +407,7 @@ export const MY_EDUCATION = [
     {
         degree: 'Higher Secondary Certificate',
         institution: '[Notre Dame College](https://ndc.edu.bd/), Dhaka',
-        duration: '2018 - 2021',
+        duration: '2018 - 2020',
         result: 'GPA 5.00 / 5.00',
         note: '',
     },
@@ -438,7 +438,7 @@ export const HONORS = [
     {
         title: 'Government Scholarships',
         detail: 'HSC, SSC, and JSC',
-        year: '2021, 2018, 2016',
+        year: '2020, 2018, 2016',
     },
     {
         title: 'Regional Winner',
