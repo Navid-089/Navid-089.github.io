@@ -421,11 +421,6 @@ export const HONORS = [
         year: '2022 - 2026',
     },
     {
-        title: 'BUET Technical Scholarship',
-        detail: '',
-        year: '2022 - 2026',
-    },
-    {
         title: 'Best UI/UX Award',
         detail: 'Hackathon, BUET CSE Fest',
         year: '2024',
