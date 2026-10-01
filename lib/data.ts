@@ -63,9 +63,9 @@ export const PUBLICATIONS: IPublication[] = [
         title: 'A Multimodal Framework for Pavement Condition Assessment Using Roadway Imagery and Vehicle Response',
         authors:
             'Shams E Shifat, Wahid Al Azad Navid, Ashrafur Rahman, AQM Zohuruzzaman, Zhao Gao, Nasif Shafi, Mosharaf Chowdhury, Sadik Khan',
-        status: 'Under review',
+        status: 'Accepted for presentation',
         venue: 'Transportation Research Board (TRB) Annual Meeting',
-        year: '2026',
+        year: '2027',
         note: 'With Limbics AI, Jackson State University, and the AWS Generative AI Innovation Center.',
         summary:
             'Fuses pavement video, three vehicle-mounted IMUs, GPS, and operating context from 15 field sites into one-second roadway records, and combines them with an adaptive multimodal model that is evaluated on held-out sites.',
@@ -345,7 +345,7 @@ export const MY_EXPERIENCE = [
         company: '[LimbicsAI](https://limbics.ai/)',
         duration: 'May 2025 - Present',
         description:
-            'Applied machine learning and sensing for infrastructure monitoring. Co-developed a multimodal pavement assessment model (paper under review) and built its automated AWS data pipeline, modelled InSAR ground-deformation data, and implemented PSI/PCI pavement scoring. Set up the LoRaWAN sensor pipeline (ChirpStack, EMQX, InfluxDB) and a bridge scour monitoring test system, and rebuilt the company web front end.',
+            'Applied machine learning and sensing for infrastructure monitoring. Co-developed a multimodal pavement assessment model (paper accepted for presentation at TRB 2027) and built its automated AWS data pipeline, modelled InSAR ground-deformation data, and implemented PSI/PCI pavement scoring. Set up the LoRaWAN sensor pipeline (ChirpStack, EMQX, InfluxDB) and a bridge scour monitoring test system, and rebuilt the company web front end.',
     },
     {
         title: 'Lead Organiser',
