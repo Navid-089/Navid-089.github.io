@@ -32,7 +32,7 @@ export const PROFILE_LINKS = [
 
 // Inline links use [label](url).
 export const ABOUT = [
-    `I am a Lecturer at [Presidency University](https://pu.edu.bd/) and a recent [Computer Science and Engineering](https://cse.buet.ac.bd/) graduate of the [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/web/#/). My research interests lie in computational biology and machine learning.`,
+    `I am a Lecturer at [Presidency University](https://pu.edu.bd/) and, from January 2027, an Adjunct Lecturer in [Computer Science and Engineering](https://cse.buet.ac.bd/) at the [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/web/#/), where I completed my undergraduate degree. My research interests lie in computational biology and machine learning.`,
     `For my undergraduate thesis, supervised by [Dr. Atif Hasan Rahman](https://cse.buet.ac.bd/faculty/faculty_detail/atif) in collaboration with [Dr. Mahmudur Rahman Hera](https://sites.google.com/view/mahmudhera), I developed [kRISP-meR](/projects/krispmer/), a reference-free guide-RNA design framework for CRISPR/Cas9. I have also contributed to research in mechanistic interpretability of multimodal models and in Bangla language and speech resources.`,
     `I am applying to PhD programs for the upcoming admission cycle.`,
 ];
@@ -333,6 +333,13 @@ export const PROJECTS: IProject[] = [
 ];
 
 export const MY_EXPERIENCE = [
+    {
+        title: 'Adjunct Lecturer',
+        company: '[BUET](https://cse.buet.ac.bd/)',
+        duration: 'January 2027 - Present',
+        description:
+            'Teach undergraduate computer science courses in the Department of Computer Science and Engineering.',
+    },
     {
         title: 'Lecturer',
         company: '[Presidency University](https://pu.edu.bd/)',

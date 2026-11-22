@@ -17,7 +17,7 @@ const sansFont = Inter({
 });
 
 const description =
-    'Wahid Al Azad Navid is a Lecturer at Presidency University and a CSE graduate of BUET, working on computational biology and machine learning.';
+    'Wahid Al Azad Navid is a Lecturer at Presidency University and an Adjunct Lecturer at BUET, where he graduated in CSE. He works on computational biology and machine learning.';
 
 export const metadata: Metadata = {
     metadataBase: new URL(GENERAL_INFO.siteUrl),
@@ -42,7 +42,13 @@ const personJsonLd = {
     url: GENERAL_INFO.siteUrl,
     email: `mailto:${GENERAL_INFO.email}`,
     jobTitle: 'Lecturer',
-    worksFor: { '@type': 'CollegeOrUniversity', name: 'Presidency University' },
+    worksFor: [
+        { '@type': 'CollegeOrUniversity', name: 'Presidency University' },
+        {
+            '@type': 'CollegeOrUniversity',
+            name: 'Bangladesh University of Engineering and Technology',
+        },
+    ],
     alumniOf: {
         '@type': 'CollegeOrUniversity',
         name: 'Bangladesh University of Engineering and Technology',
