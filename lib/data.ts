@@ -334,9 +334,9 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Adjunct Lecturer',
+        title: 'Adjunct Lecturer (incoming)',
         company: '[BUET](https://cse.buet.ac.bd/)',
-        duration: 'January 2027 - Present',
+        duration: 'from January 2027',
         description:
             'Teach undergraduate computer science courses in the Department of Computer Science and Engineering.',
     },
