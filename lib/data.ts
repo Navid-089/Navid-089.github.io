@@ -439,8 +439,8 @@ export const HONORS = [
     },
     {
         title: 'Government Scholarships',
-        detail: 'HSC, SSC, and JSC',
-        year: '2020, 2018, 2016',
+        detail: 'HSC, JSC, and PECE',
+        year: '2020, 2015, 2012',
     },
     {
         title: 'Regional Winner',
