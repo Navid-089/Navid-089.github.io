@@ -33,7 +33,7 @@ export const PROFILE_LINKS = [
 // Inline links use [label](url).
 export const ABOUT = [
     `I am a Lecturer at [Presidency University](https://pu.edu.bd/) and, from January 2027, an Adjunct Lecturer in [Computer Science and Engineering](https://cse.buet.ac.bd/) at the [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/web/#/), where I completed my undergraduate degree. My research interests lie in computational biology and machine learning.`,
-    `For my undergraduate thesis, supervised by [Dr. Atif Hasan Rahman](https://cse.buet.ac.bd/faculty/faculty_detail/atif) in collaboration with [Dr. Mahmudur Rahman Hera](https://sites.google.com/view/mahmudhera), I developed [kRISP-meR](/projects/krispmer/), a reference-free guide-RNA design framework for CRISPR/Cas9. I have also contributed to research in mechanistic interpretability of multimodal models and in Bangla language and speech resources.`,
+    `For my undergraduate thesis, supervised by [Dr. Atif Hasan Rahman](https://cse.buet.ac.bd/faculty/faculty_detail/atif), I co-developed [kRISP-meR](/projects/krispmer/), a reference-free guide-RNA design framework for CRISPR/Cas9, with [Mahmudur Rahman Hera](https://sites.google.com/view/mahmudhera) and Fuad Ahmed Udoy. I have also contributed to research in mechanistic interpretability of multimodal models and in Bangla language and speech resources.`,
     `I am applying to PhD programs for the upcoming admission cycle.`,
 ];
 
@@ -51,13 +51,17 @@ export const PUBLICATIONS: IPublication[] = [
     {
         title: 'kRISP-meR: A Reference-free Guide-RNA Design Tool for CRISPR/Cas9',
         authors:
-            'Wahid Al Azad Navid, Fuad Ahmed Udoy, Mahmudur Rahman Hera, Atif Hasan Rahman',
-        status: 'Manuscript in preparation',
+            'Mahmudur Rahman Hera*, Wahid Al Azad Navid*, Fuad Ahmed Udoy*, Amatur Rahman, Atif Rahman',
+        status: 'Preprint',
+        venue: 'bioRxiv',
         year: '2026',
-        note: 'Undergraduate thesis, BUET. Supervisor: [Dr. Atif Hasan Rahman](https://cse.buet.ac.bd/faculty/faculty_detail/atif). Collaborator: [Dr. Mahmudur Rahman Hera](https://sites.google.com/view/mahmudhera).',
+        note: '*These authors contributed equally. Undergraduate thesis, BUET. Supervisor: [Dr. Atif Hasan Rahman](https://cse.buet.ac.bd/faculty/faculty_detail/atif).',
         summary:
-            'A reference-free tool for designing CRISPR/Cas9 guide RNAs that works directly on raw sequencing reads from the individual being edited, with no genome assembly and no reference genome. kRISP-meR fits a Poisson mixture to the k-mer frequency spectrum of the reads using expectation-maximization, infers the genomic copy number of each guide-like sequence, and from that computes the expected number of cuts for every candidate guide. Benchmarked against CRISPOR and GuideScan2 on human, mouse, and yeast data, it recovers the high-quality guides those tools find, and it rejects guides that look unique in the reference but are duplicated in the genome of the individual. Benchmarking is complete and the manuscript is being finalised.',
-        links: [{ label: 'Project page', url: '/projects/krispmer/' }],
+            'A reference-free tool for designing CRISPR/Cas9 guide RNAs that works directly on raw sequencing reads from the individual being edited, with no genome assembly and no reference genome. kRISP-meR fits a Poisson mixture to the k-mer frequency spectrum of the reads using expectation-maximization, infers the genomic copy number of each guide-like sequence, and from that computes the expected number of cuts for every candidate guide. Benchmarked against CRISPOR and GuideScan2 on human, mouse, and yeast data, it recovers the high-quality guides those tools find, and it rejects guides that look unique in the reference but are duplicated in the genome of the individual. Posted as a preprint on bioRxiv in November 2026.',
+        links: [
+            { label: 'bioRxiv', url: 'https://doi.org/10.1101/869115' },
+            { label: 'Project page', url: '/projects/krispmer/' },
+        ],
     },
     {
         title: 'A Multimodal Framework for Pavement Condition Assessment Using Roadway Imagery and Vehicle Response',
@@ -139,10 +143,10 @@ export const PROJECTS: IProject[] = [
         <ul>
             <li>Benchmarked against CRISPOR and GuideScan2 on human, mouse, and yeast: read-based scores closely track scores computed from the full reference genome, and the recommended guides carry far fewer severe off-targets</li>
             <li>Tested where individual and reference disagree (CHM13 versus GRCh38 in human, N22 versus Nipponbare in rice): kRISP-meR rejects guides that are single-copy in the reference but duplicated in the individual, and can evaluate targets that are absent from the reference altogether</li>
-            <li>Benchmarking complete; manuscript being finalised</li>
+            <li>Available as a preprint on <a class="link" href="https://doi.org/10.1101/869115" target="_blank" rel="noopener noreferrer">bioRxiv</a> (doi: 10.1101/869115)</li>
         </ul>`,
         // TODO(Navid): replace with the specific parts that were yours.
-        role: `First author. Undergraduate thesis supervised by <a class="link" href="https://cse.buet.ac.bd/faculty/faculty_detail/atif" target="_blank" rel="noopener noreferrer">Dr. Atif Hasan Rahman</a> in collaboration with <a class="link" href="https://sites.google.com/view/mahmudhera" target="_blank" rel="noopener noreferrer">Dr. Mahmudur Rahman Hera</a>, with co-author Fuad Ahmed Udoy.`,
+        role: `Co-first author with <a class="link" href="https://sites.google.com/view/mahmudhera" target="_blank" rel="noopener noreferrer">Mahmudur Rahman Hera</a> and Fuad Ahmed Udoy. Undergraduate thesis supervised by <a class="link" href="https://cse.buet.ac.bd/faculty/faculty_detail/atif" target="_blank" rel="noopener noreferrer">Dr. Atif Hasan Rahman</a>.`,
     },
     {
         title: 'GradPilot',
